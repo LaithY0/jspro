@@ -1,0 +1,66 @@
+
+body{
+
+    
+}
+h1{
+    margin-left: 1%;
+    color: green;
+}
+
+#sec1{
+    margin-left: 1%;
+}
+
+.qus{
+    
+    background-color: #EEEDED;
+
+    width: 50%;
+
+}
+
+
+.qusandans{
+    margin-left: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.radiodiv{
+
+    margin-left: 80%;
+}
+
+#sec2{
+
+    margin-top: 1%;
+    margin-left: 13%;
+}
+
+.btn{
+   padding: .5%;
+    border: solid rgb(109, 198, 109);
+    border-radius: 7px;
+   background-color: rgb(4, 53, 4);
+   color: white;
+   font-weight: bold;
+   font-size: large;
+}
+.btn:hover{
+    background-color: rgb(7, 166, 7);
+}
+
+@media (min-width : 280px) and (max-width : 900px){
+
+    .btn{
+        font-size: small;
+    }
+
+    #sec1{
+        width: 100%;
+    }
+
+    .qus{
+        width: 100%;
+    }
+}
