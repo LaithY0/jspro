@@ -3,7 +3,7 @@
     flex-direction: column;
     margin-left: 38%;
     margin-top: 15%;
-    border: solid green;
+    border: solid red;
     width: 22%;
     height: 40%;
     text-align: center;
@@ -14,7 +14,7 @@
 
 #btn1{font-size: large;
     border-radius: 7px;
-    background-color:rgb(2, 78, 2);
+    background-color:red;
     color: white;
    
 }
@@ -28,10 +28,10 @@
 
 }
 #em1{
-    color: green;
+    color: red;
 }
 #h1{
-    color: green;
+    color: red;
 }
 .btn{
     font-weight: bold;
@@ -41,14 +41,12 @@
 }
 
 #em2{
-    color: green;
+    color: red;
 }
-#div1{
-    width: 100%;
-}
+
 @media (min-width: 280px) and (max-width: 900px){
-   #sec1{
-    width: 100%;
-    margin: auto 0;
-   }
-}
+    #sec1{
+     width: 100%;
+     margin: auto 0;
+    }
+ }
